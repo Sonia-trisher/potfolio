@@ -7,7 +7,7 @@
 }
 :root{
     --main-red:rgb(131, 29, 29);
-    --main-black:black;
+    --main-black:rgb(37, 37, 37);
     --main-blue:rgb(107, 107, 187);
     --main-white:white;
 }
@@ -44,21 +44,30 @@ a{
  #blankspace h1 {
     color: var(--main-white);
     text-align: center;
-    font-weight: 500;
-    font-size: xx-large;
+    font-weight: 600;
+    font-size: 3.8rem;
+    display: block;
+    margin: 12rem  0rem 0rem 0rem;
+    
+    
+   
+
  }
 #blankspace p{
     color: var(--main-red);
     text-align: center;
-    font-size: x-large;   
+    font-size: 2rem;  
+    margin-top:1rem;
+    font-style: italic;
+    font-weight: ;
 }
-#blankspace h1,p{
-    padding: 0px;
-    margin: 0px;
-}
+
 #more{
     width: 100%;
     height: 200vh;
+    display: block;
+    flex-wrap: ;
+    justify-content: space-between;
     background-color: var(--main-blue);
     
 }
@@ -69,10 +78,36 @@ a{
     color: var(--main-white);
     text-underline-offset: 2px;
 }
-#more img{
-    width: 31%;
-    height: 60vh;
-    display:inline-flex;
-    align-items: flex-start;
-
-}
+.card img{
+    
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-bottom: 18px;
+    height: 400px;
+    }
+    #never{
+        background-color: var(--main-black);
+        color: var(--main-white);
+        width: 100%;
+        height: 90vh;
+        text-align: center;
+    
+    }
+    #never h1{
+        font-size: 4rem;
+        font-weight: 700;
+        margin-top: 10rem;
+    }
+    #never p{
+        font-size: medium;
+        font-style: italic;
+        margin: 1rem 0rem 3rem 0rem;
+    }
+     #never hr{
+        margin: 8rem 0rem 0rem 0rem;
+        color: var(--main-red);
+        
+    }
+    
+    
