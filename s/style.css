@@ -59,7 +59,7 @@ a{
     font-size: 2rem;  
     margin-top:1rem;
     font-style: italic;
-    font-weight: ;
+    font-weight: 100px;
 }
 
 #more{
@@ -78,13 +78,23 @@ a{
     color: var(--main-white);
     text-underline-offset: 2px;
 }
-.card img{
-    
+.card{
     display: flex;
-    flex-direction: column;
-    width: 30%;
+    flex-wrap:wrap;
+    width:98%;
+    justify-content: space-between;
+}
+.apart{
+    width: 3;
+    
+    
+}
+.card img{
+    padding-right: 3px;
+    display: flex;
     margin-bottom: 18px;
     height: 400px;
+    
     }
     #never{
         background-color: var(--main-black);
